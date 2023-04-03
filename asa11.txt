@@ -1,0 +1,29 @@
+[  +35 ms] Error (Xcode): File not found: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+           
+[   +3 ms] Error (Xcode): Linker command failed with exit code 1 (use -v to see invocation)
+           
+[   +2 ms] Could not build the application for the simulator.
+[        ] Error launching application on iPhone 14 Pro Max.
+[  +13 ms] "flutter run" took 30,648ms.
+[  +10 ms] 
+           #0      throwToolExit (package:flutter_tools/src/base/common.dart:10:3)
+           #1      RunCommand.runCommand (package:flutter_tools/src/commands/run.dart:714:9)
+           <asynchronous suspension>
+           #2      FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1209:27)
+           <asynchronous suspension>
+           #3      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:150:19)
+           <asynchronous suspension>
+           #4      CommandRunner.runCommand (package:args/command_runner.dart:209:13)
+           <asynchronous suspension>
+           #5      FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:281:9)
+           <asynchronous suspension>
+           #6      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:150:19)
+           <asynchronous suspension>
+           #7      FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:229:5)
+           <asynchronous suspension>
+           #8      run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:62:9)
+           <asynchronous suspension>
+           #9      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:150:19)
+           <asynchronous suspension>
+           #10     main (package:flutter_tools/executable.dart:91:3)
+           <asynchronous suspension>
